@@ -58,6 +58,7 @@ public class SnakeAndLadder {
 		}
 			if(positionPlayer1==100)
 			{
+				System.out.println("Player Won the game");
 				break;
 			}
 					
