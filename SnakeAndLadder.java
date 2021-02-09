@@ -47,8 +47,9 @@ public class SnakeAndLadder {
 				else {
 				
 				positionPlayer1+=dicePlayer1;
-				System.out.println("Positon of Player1 :"+positionPlayer1);
+				
 				dicePlayer1=(int)(Math.random()*6+1);
+				System.out.println("Positon of Player1 :"+positionPlayer1);
 				counterPlayer1++;
 		
 				}
@@ -64,6 +65,7 @@ public class SnakeAndLadder {
 					
 		
 	}
+		System.out.println("No of Times Dice Rolled Player1 :"+counterPlayer1+"  Position :"+positionPlayer1);
 }
 
 }
