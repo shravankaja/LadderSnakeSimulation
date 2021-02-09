@@ -40,18 +40,27 @@ public class SnakeAndLadder {
 			{
 				int temp1positionPlayer1=positionPlayer1;
 				temp1positionPlayer1+=dicePlayer1;
+				if(temp1positionPlayer1>100)
+				{
+					continue;
+				}
+				else {
 				
 				positionPlayer1+=dicePlayer1;
 				System.out.println("Positon of Player1 :"+positionPlayer1);
 				dicePlayer1=(int)(Math.random()*6+1);
 				counterPlayer1++;
 		
-				
+				}
 		
 		
 		
 		}
-		
+			if(positionPlayer1==100)
+			{
+				break;
+			}
+					
 		
 	}
 }
